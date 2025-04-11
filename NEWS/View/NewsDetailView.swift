@@ -1,7 +1,7 @@
 //
 //  NewsDetailView.swift
 //  NEWS
-//
+//  ------------------------------
 //  Created by PIXEL on 02.04.2025.
 //
 
@@ -18,7 +18,7 @@ struct NewsDetailView: View {
                     KFImage(url)
                         .resizable()
                         .scaledToFit()
-                        .cornerRadius(12)
+                        .cornerRadius(14)
                 }
                 
                 Text(article.title)
